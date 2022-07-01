@@ -1,0 +1,87 @@
+/* 1.1 typography */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+// ......brand fonts............
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body {
+  line-height: 31px;
+  font-family: $primary-font;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17px;
+}
+
+p, .paragraph {
+  font-weight: 300;
+  color: $text-color;
+  font-size: 17px;
+  line-height: 31px;
+  font-family: $secondary-font;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+  color: $text-color-dark;
+  font-family: $primary-font;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+h1, .h1{
+  font-size: 50px;
+  letter-spacing: .1rem;
+  @include mobile {
+    font-size: 24px !important;
+  }
+  @include tablet {
+    font-size: 24px !important;
+  }
+  @include desktop {
+    font-size: 28px !important;
+  }
+  @include desktop-lg {
+    font-size: 40px;
+  }
+
+}
+
+h2, .h2{
+  font-size: 43px;
+  letter-spacing: .1rem;
+}
+
+h3, .h3{
+  font-size: 37px;
+  letter-spacing: .1rem;
+}
+
+h4, .h4{
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+h5, .h5{
+  font-size: 16px;
+}
+
+h6, .h6{
+  font-size: 13px;
+}
+
+.text-small{
+  font-size: 14px !important;
+  min-height: 200px;
+}
+
+.bold{
+  font-weight: 500;
+}
+
+.subhead {
+  font-weight: 400;
+}

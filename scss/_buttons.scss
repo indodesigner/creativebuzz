@@ -1,0 +1,235 @@
+.btn {
+  font-size: 18px;
+  font-family: $primary-font;
+  text-transform: capitalize;
+  padding: 15px 60px;
+  font-weight: 400;
+  border: 0;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+
+.btn-talk{
+  background: $white ;
+  color: $black;
+  transition: transform .2s;
+  padding: 1em 2rem;
+  font-size: .75rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+
+  &:hover {
+    background: none;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    color: $white;
+    transform: scale(1.05);
+  }
+}
+
+
+
+
+.btn-primary {
+  background-image: $primary-gradient;
+  margin-top: 1.5rem;
+      padding: 1em 2rem;
+      font-size: .75rem;
+      font-weight: bold;
+      letter-spacing: 0.025rem;
+      text-transform: uppercase;
+      border-radius: 10px;
+
+  color: $white;
+  transition: transform .2s;
+
+  &:active {
+    background: $primary-gradient !important;
+  }
+
+  &:hover {
+    background: none;
+    border: solid;
+    border-color: black;
+    color: $text-color-dark;
+    transform: scale(1.05);
+  }
+}
+
+.btn-secondary {
+  background-image: $secondary-gradient;
+  background-color: transparent;
+  color: $text-color-dark;
+  padding: 1em 2em;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: transform .2s;
+
+  &:active {
+    background: $secondary-gradient !important;
+  }
+
+  &:hover {
+    background: none;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    color: $white;
+    transform: scale(1.05);
+  }
+}
+
+.btn-card{
+    background-image: $secondary-gradient;
+    margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.65rem;
+        font-weight: bold;
+        letter-spacing: 0.025rem;
+        text-transform: uppercase;
+  
+    color: $text-color-dark;
+    transition: transform .2s;
+  
+    &:active {
+      background: $primary-gradient !important;
+    }
+  
+    &:hover {
+      background: none;
+      border: solid;
+      border-color: rgb(255, 255, 255);
+      color: $white;
+      transform: scale(1.05);
+    }
+  }
+
+  .btn-card-2{
+    background-image: $primary-gradient;
+    margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.65rem;
+        font-weight: bold;
+        letter-spacing: 0.025rem;
+        text-transform: uppercase;
+  
+    color: $white;
+    transition: transform .2s;
+
+    // &:after {
+    //   content: '>>';
+    //   position: absolute;
+    //   opacity: 0;  
+    //   right: -20px;
+    //   transition: 0.5s;
+    // }
+  
+    &:active {
+      background: $primary-gradient !important;
+    }
+  
+    &:hover {
+      background: none;
+      border: solid;
+      border-color: rgb(0, 0, 0);
+      color: $black;
+      transform: scale(1.05);
+      padding-left:1.5em;
+    }
+    // &:hover:after {
+    //   opacity: 1;
+    //   right: 10px;
+    // }
+  }
+
+  .btn-black{
+    background-image: $primary-gradient;
+    margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.65rem;
+        font-weight: bold;
+        letter-spacing: 0.025rem;
+        text-transform: uppercase;
+  
+    color: $white;
+    transition: transform .2s;
+
+    &:after {
+      position: absolute;
+      opacity: 0;  
+      transition: 0.5s;
+    }
+  
+    &:active {
+      background: $primary-gradient !important;
+    }
+  
+    &:hover {
+      background: none;
+      border: solid;
+      border-color: rgb(0, 0, 0);
+      color: $black;
+      transform: scale(1.05);
+      padding-left:1.5em;
+    }
+    &:hover:after {
+      opacity: 1;
+      right: 10px;
+    }
+  }
+
+
+
+
+.btn-lg{
+  padding: 15px 85px;
+}
+
+.link:hover{
+  color: $black !important;
+}
+
+
+.btn-third {
+  background-image: $secondary-gradient;
+  background-color: transparent;
+  color: $black !important;
+  transition: transform .2s;
+
+  &:active {
+    background: $secondary-gradient !important;
+  }
+
+  &:hover {
+    background: none;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    color: $white;
+    transform: scale(1.05);
+  }
+}
+
+
+.ti__icon{
+  padding: .5em;
+ }
+
+
+ .btn-2 {
+  padding: 0;
+ }

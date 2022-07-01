@@ -1,0 +1,341 @@
+.hero-section {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  margin-bottom: 300px;
+}
+// .hero-section-new{
+//   padding-bottom: 250px;
+// }
+
+.banner-image {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero {
+  &-bg-1 {
+    position: absolute;
+    left:80%;
+    top: 50%;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-bg-2 {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-bg-3 {
+    position: absolute;
+    top:50%;
+    left: 80%;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-bg-4 {
+    top: 210px;
+    right: 40%;
+    position: absolute;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-bg-5 {
+    position: absolute;
+    top: 250px;
+    right: 25%;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-bg-6 {
+    position: absolute;
+    right: 5%;
+    bottom: 40%;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-bg-7 {
+    position: absolute;
+    left: 20%;
+    bottom: -17%;
+    z-index: 1;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-bg-8 {
+    position: absolute;
+    bottom: -50%;
+    right: 50%;
+    z-index: 1;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &-bg-9 {
+    position: absolute;
+    right: 20%;
+    bottom: -10%;
+    z-index: 1;
+
+    @include tablet {
+      display: none;
+    }
+  }
+}
+
+.hero-spline{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  z-index: -10;
+  animation: mymove 5s infinite;
+}
+
+
+
+// .........hero-poly..........
+
+// .demo{
+//   position: absolute;
+// }
+
+svg {
+  width: 100%;
+  height: 100%;
+  g {
+    mix-blend-mode: hard-light;
+  }
+  polygon {
+    stroke: none;
+    fill: rgb(255, 255, 255);
+  }
+}
+
+
+// ..............reveal block.hero heading.anime..................
+
+// .block-reveal {
+//   position: relative;
+//   margin-left: -10px;
+
+//   &::after {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 10px;
+//     height: 100%;
+//     width: 0;
+//     border: solid;
+//     border-color: #ffffff;
+//     opacity: 0;
+//     animation: block-reveal 10s cubic-bezier(0.19, 0, 0.22, 1) 1s forwards infinite;
+//   }
+
+//   .text-reveal{
+//     position: relative;
+//     margin-left: 20px;
+//     padding-top: 10px;
+//     opacity: 0;
+//     animation: text-reveal 10s  infinite;
+//   }
+// }
+// .block-reveal-2 {
+//   position: relative;
+//   padding-right: 10px;
+
+//   &::after {
+//     content: '';
+//     position: absolute;
+//     top: 10px;
+//     left: 0;
+//     height: 100%;
+//     width: 0;
+//     border: solid;
+//     border-color: #000000;
+//     background-color: #000000;
+//     opacity: 0;
+//     animation: block-reveal 10s cubic-bezier(0.19, 0, 0.22, 1) 2s forwards infinite;
+//   }
+
+// }
+
+// @keyframes block-reveal {
+//   0% {
+//     left: 0;
+//     width: 0;
+//     opacity: 0;
+    
+//   }
+//   15% {
+//     left: 0;
+//     width: 0;
+//     opacity: 1;
+//   }
+//   50% {
+//     left: 0;
+//     width: 100%;
+//   }
+
+//   75% {
+//     left: 0;
+//     width: 100%;
+//   }
+
+//   100% {
+//     left: 0;
+//     width: 0;
+//     opacity: 1;
+//   }
+// }
+
+// @keyframes text-reveal {
+//   50% {opacity: 0;}
+//   80%{opacity: 1;}
+//   100% {opacity: 0;}
+// }
+
+
+
+.block-reveal {
+  position: relative;
+  margin-left: -10px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 100%;
+    width: 0;
+    border: solid;
+    border-color: #ffffff;
+    opacity: 0;
+    animation: block-reveal 10s cubic-bezier(0.19, 0, 0.22, 1) 1s forwards infinite;
+  }
+
+  .text-reveal{
+    position: relative;
+    margin-left: 20px;
+    padding-top: 10px;
+    opacity: 0;
+    animation: text-reveal 10s  infinite;
+  }
+}
+.block-reveal-2 {
+  position: relative;
+  padding-right: 10px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 100%;
+    width: 0;
+     border: solid;
+    border-color: #ffffff;
+    opacity: 0;
+    animation: block-reveal 10s cubic-bezier(0.19, 0, 0.22, 1) 2s forwards infinite;
+  }
+
+}
+
+// @keyframes block-reveal {
+//   0% {
+//     left: 0;
+//     width: 0;
+//     opacity: 0;
+    
+//   }
+//   15% {
+//     left: 0;
+//     width: 0;
+//     opacity: 1;
+//   }
+//   50% {
+//     left: 0;
+//     width: 100%;
+//   }
+
+//   55% {
+//     left: 0;
+//     width: 100%;
+//   }
+//   95% {
+//     left: 0;
+//     width: 100%;
+//   }
+
+//   100% {
+//     left: 0;
+//     width: 0;
+//     opacity: 1;
+//   }
+// }
+
+@keyframes block-reveal {
+  0% {
+    left: 0;
+    width: 0;
+    opacity: 0;
+  }
+  30% {
+    left: 0;
+    width: 100%;
+  }
+  35% {
+    left: 0;
+    width: 100%;
+  }
+  80% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 0;
+    width: 0;
+    opacity: 1;
+  }
+}
+
+
+@keyframes text-reveal {
+  30% {opacity: 0;}
+  50% {opacity: 1;}
+  90% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+
+// .......................................................

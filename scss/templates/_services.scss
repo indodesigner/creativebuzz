@@ -1,0 +1,81 @@
+.feature {
+  position: relative;
+
+  &-item {
+    h4 {
+      line-height: 1;
+    }
+
+    p {
+      line-height: 25px;
+    }
+
+    &:hover {
+      .feature-icon {
+        box-shadow: 0px 18px 43px 0px rgba(0, 141, 236, 0.21);
+      }
+    }
+  }
+
+  &-icon_orange {
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    border-radius: 5px;
+    color: $white;
+    font-size: 45px;
+    line-height: 90px;
+    background: $cb-orange;
+    box-shadow: 0px 18px 25px 0px rgba(0, 141, 236, 0.10);
+    text-align: center;
+    transition: .2s ease;
+  }
+}
+
+.service_hero{
+  position: absolute;
+  mask-image: linear-gradient(rgb(255, 255, 255), transparent);
+}
+
+.try-btn {
+  padding: .5em;
+  // border: solid;
+  // border-color: black;
+  color: rgb(255, 255, 255);
+  // border-width: .2em;
+  background-color: black;
+ }
+ .try-btn:hover{
+  border: solid;
+  border-color: black;
+  color: rgb(0, 0, 0);
+  background-color: $cb-orange-pastel;
+ }
+.bg-orange{
+  background-color: $cb-orange-pastel;
+}
+
+.strategies_head{
+  font-weight: 400;
+  font-family: 'Staatliches', cursive;
+}
+.poly_shape_service_1{
+  position: absolute;
+  top:400px;
+  right: 0;
+}
+.poly_shape_service_2{
+  position: absolute;
+  top:0px;
+  left: 0;
+}
+
+.text-xs{
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.bg-clr-orange{
+  background-color: rgb(255, 243, 232);
+  padding: 1em;
+  border-radius: .5em;
+}

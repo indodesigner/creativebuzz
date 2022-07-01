@@ -1,0 +1,264 @@
+.slide__right{
+    animation: slideInLeft;
+    animation-duration: 1s;
+}
+.slide__up{
+    animation: slideInUp;
+    animation-duration: 1s;
+}
+.slide__left{
+    animation: slideInRight;
+    animation-duration: 1s;
+}
+
+.slide__down{
+    animation: slideInDown;
+    animation-duration: 1s;
+}
+
+.fade__in{
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+.fade__left__in{
+    animation: fadeInRight;
+    animation-duration: 1s;
+}
+.fade__right__in{
+animation: fadeInLeft;
+animation-duration: 1s;
+}
+
+.fade__in__up{
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+
+
+// ...............................................
+
+
+@keyframes arrowsvganim {
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+
+}
+
+
+
+// .............................
+.css-selector {
+    background: linear-gradient(281deg, #9cff92, #9fcbff, #ffa1f7)!important;
+
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    -o-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+// ..................
+
+
+// ......poly shapes anime........
+.rotate_shape {
+    animation: rotation 10s infinite alternate;
+}
+.move_shape {
+    animation: movement4 10s infinite alternate;
+}
+.move_shape_2 {
+    animation: movement 7s infinite alternate;
+}
+.move_shape_reverse {
+    animation: movement2 10s infinite alternate-reverse;
+}
+.move_shape_reverse_2 {
+    animation: movement3 8s infinite alternate-reverse;
+}
+
+
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+@keyframes movement {
+    0% {
+      transform: translate(-300px, 0);
+    }
+    100% {
+        transform: translate(300px, -300px);
+      }
+  }
+
+  @keyframes movement2 {
+    0% {
+      transform: translate(-200px, 0);
+    }
+    100% {
+        transform: translate(200px, -200px);
+      }
+  }
+  @keyframes movement3 {
+    0% {
+      transform: translate(-200px, 100px);
+    }
+    100% {
+        transform: translate(200px, -200px);
+      }
+  }
+  @keyframes movement4 {
+    0% {
+      transform: translate(-300px, 0);
+    }
+    100% {
+        transform: translate(400px, -400px);
+      }
+  }
+
+
+
+//   .................shuffle-anime....................
+
+.shuffle_color {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+      animation-name: backgroundColorPalette;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear; 
+      /* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+  }
+
+  @keyframes backgroundColorPalette {
+      0% {
+          background: #f6e4ff;
+      }
+      25% {
+          background: #d3f6ff;
+      }
+      50% {
+          background: #fdffd5;
+      }
+      75% {
+          background: #ffd9c9;
+      }
+      100% {
+          background: #f8cfd9;
+      }
+  }
+
+  .shuffle_bg_color{
+    animation-name: backgroundColorPalettelight;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
+}
+@keyframes backgroundColorPalettelight {
+    0% {
+        background: #f6e4ff;
+    }
+    25% {
+        background: #d3f6ff;
+    }
+    50% {
+        background: #fdffd5;
+    }
+    75% {
+        background: #ffd9c9;
+    }
+    100% {
+        background: #f8cfd9;
+    }
+}
+
+
+  .shuffle_mark{
+    animation-name: backgroundColorPalette2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
+}
+
+@keyframes backgroundColorPalette2 {
+    0% {
+        background: #c8afd4;
+    }
+    25% {
+        background: #76cde2;
+    }
+    50% {
+        background: #d4e978;
+    }
+    75% {
+        background: #f59e7c;
+    }
+    100% {
+        background: #eb8ea3;
+    }
+}
+
+
+
+.shuffle_bg_color_light{
+    animation-name: backgroundColorPalettelight;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
+}
+@keyframes backgroundColorPalettelight {
+    0% {
+        background: #f6ebfc;
+    }
+    25% {
+        background: #dff9ff;
+    }
+    50% {
+        background: #fdffdf;
+    }
+    75% {
+        background: #ffe8de;
+    }
+    100% {
+        background: #ffe3ea;
+    }
+}
