@@ -49,10 +49,19 @@
   border: solid;
   border-color: black;
   color: rgb(0, 0, 0);
-  background-color: $cb-orange-pastel;
  }
+ .try-hover-bg-orange:hover{
+  background-color: $cb-orange-pastel;
+}
+.try-hover-bg-blue:hover{
+  background-color: $cb-blue-pastel;
+}
+
 .bg-orange{
   background-color: $cb-orange-pastel;
+}
+.bg-blue{
+  background-color:  $cb-blue-pastel;
 }
 
 .strategies_head{
