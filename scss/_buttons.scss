@@ -233,3 +233,30 @@
  .btn-2 {
   padding: 0;
  }
+
+
+//  .......floating back to top button.................
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  z-index: 9999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 10px 2px;
+  left: 100px;
+}
+
+#myBtn:hover {
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-color: black;
+
+  .btotop{
+    color: black;
+  }
+}

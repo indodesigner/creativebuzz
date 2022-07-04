@@ -294,6 +294,30 @@ h6, .h6 {
   padding: 0;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  z-index: 9999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 10px 2px;
+  left: 100px;
+}
+
+#myBtn:hover {
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-color: black;
+}
+#myBtn:hover .btotop {
+  color: black;
+}
+
 /**
 * rome - Customizable date (and time) picker. Opt-in UI, no jQuery!
 * @version v2.1.22
