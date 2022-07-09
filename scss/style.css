@@ -3014,12 +3014,20 @@ textarea.form-control {
   background-color: #50b9ff;
 }
 
+.try-hover-bg-pink:hover {
+  background-color: #f98eb3;
+}
+
 .bg-orange {
   background-color: #f1a27e;
 }
 
 .bg-blue {
   background-color: #50b9ff;
+}
+
+.bg-pink {
+  background-color: #f98eb3;
 }
 
 .strategies_head {
