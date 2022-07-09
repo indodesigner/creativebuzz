@@ -3045,10 +3045,15 @@ textarea.form-control {
   min-height: 65px;
 }
 
-.bg-clr-orange {
-  background-color: rgb(255, 243, 232);
+.bg-clr {
   padding: 1em;
   border-radius: 0.5em;
+}
+.bg-clr-orange {
+  background-color: rgb(255, 243, 232);
+}
+.bg-clr-blue {
+  background-color: rgb(222, 242, 255);
 }
 
 .service-card {
