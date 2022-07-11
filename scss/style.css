@@ -3078,4 +3078,13 @@ textarea.form-control {
 .service-card:hover {
   transform: scale(1.02);
   box-shadow: 4px 4px 100px 0 #dfdfdf;
+}
+
+.service-lists {
+  display: flex;
+  justify-content: center;
+}
+
+.service-lists ul li {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
