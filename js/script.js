@@ -323,8 +323,46 @@
                 delay: 600,
                 reset: true
               })
-
-
+              sr.reveal('.slide-up-nav-5', {
+                duration: 1500,
+                origin: 'bottom',
+                distance: '8rem',
+                viewFactor: 0.2,
+                delay: 800,
+                reset: true
+              })
+              sr.reveal('.slide-up-nav-6', {
+                duration: 1500,
+                origin: 'bottom',
+                distance: '8rem',
+                viewFactor: 0.2,
+                delay: 1000,
+                reset: true
+              })
+              sr.reveal('.slide-up-nav-7', {
+                duration: 1500,
+                origin: 'bottom',
+                distance: '8rem',
+                viewFactor: 0.2,
+                delay: 1200,
+                reset: true
+              })
+              sr.reveal('.slide-up-nav-8', {
+                duration: 1500,
+                origin: 'bottom',
+                distance: '8rem',
+                viewFactor: 0.2,
+                delay: 1400,
+                reset: true
+              })
+              sr.reveal('.slide-up-nav-9', {
+                duration: 1500,
+                origin: 'bottom',
+                distance: '8rem',
+                viewFactor: 0.2,
+                delay: 1600,
+                reset: true
+              })
 
 
 

@@ -1544,7 +1544,6 @@ img {
   .card:after {
     transform: translateY(0);
   }
-
   .content {
     transform: translateY(calc(100% - 4.5rem));
   }
@@ -1553,7 +1552,6 @@ img {
     transform: translateY(1rem);
     transition: transform var(--d) var(--e), opacity var(--d) var(--e);
   }
-
   .card:hover,
 .card:focus-within {
     align-items: center;
@@ -1576,7 +1574,6 @@ img {
     transform: translateY(0);
     transition-delay: calc(var(--d) / 8);
   }
-
   .card:focus-within:before, .card:focus-within:after,
 .card:focus-within .content,
 .card:focus-within .content > *:not(.title) {
@@ -3063,6 +3060,9 @@ textarea.form-control {
 .bg-clr-blue {
   background-color: rgb(222, 242, 255);
 }
+.bg-clr-pink {
+  background-color: rgb(252, 232, 249);
+}
 
 .service-card {
   border: solid;
@@ -3087,4 +3087,7 @@ textarea.form-control {
 
 .service-lists ul li {
   display: flex;
+}
+.service-lists ul li h4 {
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */

@@ -102,6 +102,9 @@
   &-blue{
   background-color: rgb(222, 242, 255);
   }
+  &-pink{
+    background-color: rgb(252, 232, 249);
+    }
 }
 
 .service-card{
@@ -124,6 +127,10 @@
   display: flex;
   justify-content: center;
 }
+
 .service-lists ul li{
   display: flex;
+ h4{
+    text-align: left;
+  }
 }
