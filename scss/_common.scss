@@ -454,7 +454,7 @@ img {
 /* Floating Social Media Bar Style Starts Here */
 
 .fl-fl {
-  background: #000000;
+  background: #00000000;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 4px;
@@ -472,11 +472,11 @@ img {
 }
 
 .fa {
-  font-size: 20px;
-  color: #fff;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
   // padding: 10px 0;
   width: 40px;
-  margin: 14px;
+  // margin: 14px;
   // margin-top: 20px !important;
 }
 
@@ -485,7 +485,7 @@ img {
 }
 
 .fl-fl a {
-  color: #fff !important;
+  color: rgb(0, 0, 0) !important;
   text-decoration: none;
   text-align: center;
   line-height: 43px!important;
@@ -605,11 +605,32 @@ img {
   }
 
 
+  .f-hover:hover{
+    color: #cf0a66;
+  }  
+
+.copyright-text{
+  font-size: .8rem;
+  color: white;
+}
+
+.bottom-border{
+  padding-bottom: 1em;
+ border-bottom: .1em solid;
+}
   
-
-
-
+.f-icon-padding{
+  padding-right: .5em;
   
+}
 
+.f-socials{
+  color: white;
+  padding: .8em;
+  border: .1em solid;
+  margin: .5em;
+}
 
-
+.f-socials:hover{
+  color: #cf0a66;
+}
