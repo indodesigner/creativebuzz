@@ -177,9 +177,9 @@
                 reset: true
               })
               sr.reveal('.slide-up', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '2rem',
+                distance: '1rem',
                 viewFactor: 0.2,
                 reset: true
               })
@@ -191,28 +191,28 @@
                 reset: true
               })
               sr.reveal('.slide-left', {
-                duration: 1500,
-                origin: 'right',
-                distance: '8rem',
-                viewFactor: 0.2,
-                reset: true
-              })
-              sr.reveal('.slide-left-2', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'right',
                 distance: '4rem',
                 viewFactor: 0.2,
                 reset: true
               })
+              sr.reveal('.slide-left-2', {
+                duration: 1000,
+                origin: 'right',
+                distance: '3rem',
+                viewFactor: 0.2,
+                reset: true
+              })
               sr.reveal('.slide-left-3', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'right',
                 distance: '2rem',
                 viewFactor: 0.2,
                 reset: true
               })
               sr.reveal('.slide-left-4', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'right',
                 distance: '1rem',
                 viewFactor: 0.2,
@@ -292,73 +292,73 @@
               })
 
               sr.reveal('.slide-up-nav-1', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '8rem',
+                distance: '4rem',
                 viewFactor: 0.2,
                 reset: true
               })
 
               sr.reveal('.slide-up-nav-2', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '8rem',
+                distance: '4rem',
                 viewFactor: 0.2,
                 delay: 200,
                 reset: true
               })
               sr.reveal('.slide-up-nav-3', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '8rem',
+                distance: '4rem',
                 viewFactor: 0.2,
                 delay: 400,
                 reset: true
               })
               sr.reveal('.slide-up-nav-4', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '8rem',
+                distance: '4rem',
                 viewFactor: 0.2,
                 delay: 600,
                 reset: true
               })
               sr.reveal('.slide-up-nav-5', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '8rem',
+                distance: '4rem',
                 viewFactor: 0.2,
                 delay: 800,
                 reset: true
               })
               sr.reveal('.slide-up-nav-6', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '8rem',
+                distance: '4rem',
                 viewFactor: 0.2,
                 delay: 1000,
                 reset: true
               })
               sr.reveal('.slide-up-nav-7', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '8rem',
+                distance: '4rem',
                 viewFactor: 0.2,
                 delay: 1200,
                 reset: true
               })
               sr.reveal('.slide-up-nav-8', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '8rem',
+                distance: '4rem',
                 viewFactor: 0.2,
                 delay: 1400,
                 reset: true
               })
               sr.reveal('.slide-up-nav-9', {
-                duration: 1500,
+                duration: 1000,
                 origin: 'bottom',
-                distance: '8rem',
+                distance: '4rem',
                 viewFactor: 0.2,
                 delay: 1600,
                 reset: true
