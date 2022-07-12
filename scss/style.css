@@ -2971,7 +2971,7 @@ textarea.form-control {
 .feature-item:hover .feature-icon {
   box-shadow: 0px 18px 43px 0px rgba(0, 141, 236, 0.21);
 }
-.feature-icon_orange {
+.feature-icon {
   display: inline-block;
   height: 90px;
   width: 90px;
@@ -2979,10 +2979,15 @@ textarea.form-control {
   color: #fff;
   font-size: 45px;
   line-height: 90px;
-  background: #F75411;
   box-shadow: 0px 18px 25px 0px rgba(0, 141, 236, 0.1);
   text-align: center;
   transition: 0.2s ease;
+}
+.feature-icon_orange {
+  background: #F75411;
+}
+.feature-icon_green {
+  background: #7DD302;
 }
 
 .service_hero {
@@ -3015,6 +3020,10 @@ textarea.form-control {
   background-color: #f98eb3;
 }
 
+.try-hover-bg-green:hover {
+  background-color: #c1ff6b;
+}
+
 .bg-orange {
   background-color: #f1a27e;
 }
@@ -3025,6 +3034,10 @@ textarea.form-control {
 
 .bg-pink {
   background-color: #f98eb3;
+}
+
+.bg-green {
+  background-color: #c1ff6b;
 }
 
 .strategies_head {
@@ -3062,6 +3075,9 @@ textarea.form-control {
 }
 .bg-clr-pink {
   background-color: rgb(252, 232, 249);
+}
+.bg-clr-green {
+  background-color: rgb(237, 252, 232);
 }
 
 .service-card {
