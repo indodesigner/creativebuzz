@@ -3076,6 +3076,7 @@ textarea.form-control {
 .strategies_head {
   font-weight: 400;
   font-family: "Staatliches", cursive;
+  padding-top: 200px;
 }
 
 .poly_shape_service_1 {
@@ -3139,4 +3140,8 @@ textarea.form-control {
 }
 .service-lists ul li h4 {
   text-align: left;
+}
+
+.service-cards {
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
