@@ -735,3 +735,11 @@
     box-shadow: 0px 5px 20px 0px rgba(112, 169, 255, 0.473);
     border-radius: 1em !important;
    }
+   .services-card-height{
+    p{
+      min-height: 280px;
+    }
+    h4{
+      min-height: 75px;
+    }
+   }

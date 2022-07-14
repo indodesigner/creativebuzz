@@ -89,7 +89,13 @@
 .strategies_head{
   font-weight: 400;
   font-family: 'Staatliches', cursive;
-  padding-top: 200px;
+}
+
+.strategies_img_head{
+  font-weight: 400;
+  font-family: 'Staatliches', cursive;
+  padding-top: 150px;
+  width: inherit;
 }
 .poly_shape_service_1{
   position: absolute;
@@ -155,6 +161,9 @@
     text-align: left;
   }
 }
-.service-cards{
+.service-card-inner{
   background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  display: flex;
 }

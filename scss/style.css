@@ -2769,6 +2769,13 @@ svg polygon {
   border-radius: 1em !important;
 }
 
+.services-card-height p {
+  min-height: 280px;
+}
+.services-card-height h4 {
+  min-height: 75px;
+}
+
 .about {
   position: relative;
   overflow: visible;
@@ -2902,7 +2909,7 @@ textarea.form-control {
 
 .round-icon {
   height: 50px;
-  width: 50px;
+  min-width: 50px;
   border-radius: 50%;
   font-size: 18px;
   line-height: 50px;
@@ -3076,7 +3083,13 @@ textarea.form-control {
 .strategies_head {
   font-weight: 400;
   font-family: "Staatliches", cursive;
-  padding-top: 200px;
+}
+
+.strategies_img_head {
+  font-weight: 400;
+  font-family: "Staatliches", cursive;
+  padding-top: 150px;
+  width: inherit;
 }
 
 .poly_shape_service_1 {
@@ -3142,6 +3155,9 @@ textarea.form-control {
   text-align: left;
 }
 
-.service-cards {
+.service-card-inner {
   background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
