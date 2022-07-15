@@ -3097,11 +3097,21 @@ textarea.form-control {
   top: 400px;
   right: 0;
 }
+@media (max-width: 767px) {
+  .poly_shape_service_1 {
+    display: none;
+  }
+}
 
 .poly_shape_service_2 {
   position: absolute;
   top: 0px;
   left: 0;
+}
+@media (max-width: 767px) {
+  .poly_shape_service_2 {
+    display: none;
+  }
 }
 
 .text-xs {

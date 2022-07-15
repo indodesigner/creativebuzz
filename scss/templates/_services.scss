@@ -101,11 +101,19 @@
   position: absolute;
   top:400px;
   right: 0;
+
+  @include tablet {
+    display: none;
+  }
 }
 .poly_shape_service_2{
   position: absolute;
   top:0px;
   left: 0;
+  
+  @include tablet {
+    display: none;
+  }
 }
 
 .text-xs{
