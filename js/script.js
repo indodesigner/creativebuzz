@@ -389,3 +389,25 @@ $(document).ready(function() {
 
 
 
+// ........................NAV-NEW..................................
+function removeScrollBarPushing(){
+  const offsetY = document.documentElement.scrollTop;
+  let i=0;
+  const time = setInterval(function(){
+    if (i++<2){
+      clearInterval(time);    
+    }
+    document.documentElement.scrollTop = offsetY;
+  }, 1);  
+}
+
+// open sidenav
+document.getElementById('nav-toggle-btn').addEventListener('click', function(){
+  document.getElementById('sidenav').classList.add('show');
+  removeScrollBarPushing();
+});
+// close sidenav
+document.querySelector('#sidenav .closebtn').addEventListener('click', function(){
+  document.getElementById('sidenav').classList.remove('show');
+});
+

@@ -42,46 +42,79 @@
 <!-- navigation -->
 <section class="fixed-top navigation">
   <div class="container">
-    <!-- <nav class="navbar navbar-expand-lg navbar-light"> -->
-      <nav class="navbar  navbar-light">
+
+      <nav class="navbar  navbar-light horizontal-nav">
         <span class="logo">
       <a class="navbar-brand logo-1" href="index.html"><img src="images/logo_light.png" alt="logo"></a>
       <a class="navbar-brand logo-2 hide" href="index.html"><img src="images/logo.png" alt="logo"></a>
       </span>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+      <button id="nav-toggle-btn" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
         aria-expanded="false" aria-label="Toggle navigation">
         <div class="container" onclick="myFunction(this)">
-          <!-- <div class="bar1 ham menu__color__light"></div>
-          <div class="bar2 ham menu__color__light"></div>
-          <div class="bar3 ham menu__color__light"></div> -->
           <div class="bar1 ham menu__color__dark"></div>
           <div class="bar2 ham menu__color__dark"></div>
           <div class="bar3 ham menu__color__dark"></div>
         </div>
-        <!-- <span class="toggle__icon navbar-toggler-icon"></span> -->
+        
       </button>
-      <!-- navbar -->
-      <div class="collapse navbar-collapse text-center nav__background__dark nav__background" id="navbar">
+
+      <!-- <div class="collapse navbar-collapse text-center nav__background__dark nav__background" id="navbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link page-scroll" href="index.html#home"><span class="nav-span nav-link-color">Home</span></a>
           </li>
+     
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="index.html#about"><span class="nav-span nav-link-color">About</span></a>
+            <a class="nav-link page-scroll" href="#about"><span class="nav-span nav-link-color">About</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="index.html#services"><span class="nav-span nav-link-color">Service</span></a>
+            <a class="nav-link page-scroll" href="#services"><span class="nav-span nav-link-color">Service</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="index.html#blogs"><span class="nav-span nav-link-color">Blogs</span></a>
+            <a class="nav-link page-scroll" href="#blogs"><span class="nav-span nav-link-color">Blogs</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="index.html#contact"><span class="nav-span nav-link-color">Contact</span></a>
+            <a class="nav-link page-scroll" href="#contact"><span class="nav-span nav-link-color">Contact</span></a>
           </li>
         </ul>
         <a href="#" class="btn talk-button btn-talk  ml-lg-3">Let's Talk</a>
-      </div>
+      </div> -->
     </nav>
+
+
+<div id="sidenav">
+ <a href="javascript:void(0)" class="closebtn">&times;</a>
+ <ul class="side-nav-items">
+   <li class="side-item"><a class="page-scroll" href="#about">About</a></li>
+   <li class="side-item dropdown"><a class="page-scroll" href="#services">Service</a>
+     <ul class="dropdown-items">
+       <li class="dropdown-item"><a href="marketing_strategy.html">Marketing Strategy</a></li>
+       <li class="dropdown-item"><a href="brand_marketing.html">Brand Marketing</a></li>
+       <li class="dropdown-item"><a href="branding_designing.html">Branding, Designing & Merchandising</a></li>
+       <li class="dropdown-item"><a href="digital_marketing_communication.html">Digital Marketing & Communication</a></li>
+       <li class="dropdown-item"><a href="online_marketing_automation.html">Online Marketing & Automation</a></li>
+       <li class="dropdown-item"><a href="#">Content Management</a></li>
+       <li class="dropdown-item"><a href="#">Web Development</a></li>
+       <li class="dropdown-item"><a href="#">Video Creation</a></li>
+       <li class="dropdown-item"><a href="#">Event Management</a></li>
+     </ul>  
+   </li>
+   <li class="side-item"> <a class="page-scroll" href="#blogs">Blogs</a></li>
+   <li class="side-item"><a class="page-scroll" href="#contact">Contact</a></li>
+   <li class="side-item dropdown">
+     <a href="#">Social</a>
+     <ul class="dropdown-items">
+       <li class="dropdown-item"><a href="https://www.facebook.com/CreativeBuzz-Australia-107325518571077">Facebook</a></li>
+       <li class="dropdown-item"><a href="https://www.instagram.com/creativebuzz.au/">Instagram</a></li>
+       <li class="dropdown-item"><a href="https://www.linkedin.com/company/creative-buzz-au/?viewAsMember=true">LnkedIn</a></li>
+       <li class="dropdown-item"><a href="https://twitter.com/_creativebuzz">Twitter</a></li>
+     </ul>  
+   </li>
+ </ul>
+</div>
+
+
+
   </div>
 </section>
 <!-- /navigation -->
