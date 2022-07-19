@@ -135,6 +135,7 @@ a{
   }
 }
 
+
 /* sidenav */
 #sidenav{
   $size-f: 0.9; /* size factor, 2 for double of sidebar */
@@ -214,6 +215,87 @@ a{
   }
 }
 
+@media only screen and (max-width:458px){
+
+  /* sidenav */
+ #sidenav{
+   $size-f: 0.9; /* size factor, 2 for double of sidebar */
+   $width: 20em; /* side nav width */
+   $back-color: #111;
+   $text-color: white;
+   $close-btn-s: 5em; /* increase/decrease to size the close btn */
+   $nav-item-s: 1.3em; 
+   font-size: 1em*$size-f;
+   z-index: 100;
+   position: fixed;
+   right: 0;
+   top: 0;
+   height: 100%;
+   width: $width;
+   background-color: $back-color;
+   overflow-x: hidden;
+   overflow-y: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   a{color: darken($text-color, 30);}
+   a:hover{color: darken($text-color,80);}
+   .closebtn{
+     flex: 0 0 1.2em;
+     font-size: $close-btn-s; 
+     width: 1.5em;
+     height: 1.2em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     -webkit-tap-highlight-color: transparent; /* to remove the blinking of tap on mobile */
+   }
+   .side-nav-items{
+     overflow-y: auto;
+     width: 100%;
+     font-size: $nav-item-s;
+     padding: 1em 0.5em 1em 1em;
+     .side-item{
+       margin-top: 1.3em;
+       border-bottom: 1px solid #2f2f2f;
+       &:first-child{margin-top: 0;}
+     }
+   }
+   transform: translateX($width);  
+   transition: transform 0.5s;
+   &.show{
+     transform: translateX(0);
+   }
+   /* dropdown style */
+   .dropdown{
+     color: darken($text-color, 80);
+     > a::after{
+       content: "^";
+       display: inline-block;
+       font-size: 0.7em;
+       transform: translate(0.5em, -0.25em) rotateZ(180deg);
+     }
+     .dropdown-items{
+       padding: 0.3em 0 0.3em 0.5em;
+       max-height: 0;
+       overflow-x: hidden;
+       overflow-y: scroll;
+       transition: all 0.7s;
+       .dropdown-item{
+         padding-top: 0.3em;
+         &::before{
+           content: " ";
+         }
+       }
+     }
+     &:hover{   /* remove if want to work the dropdown on click*/
+       .dropdown-items{
+         max-height: 15em;
+       }
+     }
+   }
+ }
+ }
 
 
 /* changing scrollbar on desktop */
