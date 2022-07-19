@@ -555,7 +555,7 @@ a:hover {
   }
 }
 .section-lg {
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 @media (max-width: 575px) {
@@ -859,6 +859,10 @@ mark {
 }
 .container svg path {
   fill: rgb(0, 0, 0);
+}
+.container-footer {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .lines {

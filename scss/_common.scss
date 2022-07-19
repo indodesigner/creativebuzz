@@ -97,7 +97,7 @@ a:hover {
   }
 
   &-lg {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 200px;
 
     @include mobile {
@@ -377,7 +377,6 @@ mark{
 
 
 .container{
- 
   svg{
       margin-top: 0em;
       position: absolute;
@@ -386,6 +385,10 @@ mark{
       path{
           fill:rgb(0, 0, 0);
       }
+  }
+  &-footer{
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 
