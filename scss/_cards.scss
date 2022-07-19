@@ -127,7 +127,7 @@ $bp-lg: 800px;
   }
   
   
-  @media (hover: hover) and (min-width: $bp-md) {
+  @media (hover: hover) and (min-width: $bp-lg) {
     .card:after {
       transform: translateY(0);
     }
