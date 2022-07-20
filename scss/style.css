@@ -306,7 +306,7 @@ h6, .h6 {
   color: white;
   cursor: pointer;
   padding: 10px 2px;
-  left: 100px;
+  right: 30px;
 }
 
 #myBtn:hover {
@@ -948,19 +948,19 @@ img {
 }
 
 .float-fb {
-  top: 60vh;
+  top: 50vh;
 }
 
 .float-tw {
-  top: 66vh;
+  top: 56vh;
 }
 
 .float-gp {
-  top: 72vh;
+  top: 62vh;
 }
 
 .float-rs {
-  top: 78vh;
+  top: 68vh;
 }
 
 .float-ig {
