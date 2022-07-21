@@ -3380,6 +3380,14 @@ textarea.form-control {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 767px) {
+  .service-lists h3 {
+    font-size: 1.5rem;
+  }
+  .service-lists i {
+    padding-top: 0.5em;
+  }
+}
 
 .service-lists ul li {
   display: flex;
@@ -3397,4 +3405,13 @@ textarea.form-control {
 
 .fa-icon-service {
   padding-top: 1.1em;
+}
+
+.fa-icon-cm {
+  width: 2em !important;
+  color: rgb(230, 138, 0);
+}
+
+.orange-text {
+  color: rgb(230, 138, 0);
 }/*# sourceMappingURL=style.css.map */

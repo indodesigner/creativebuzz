@@ -161,6 +161,14 @@
 .service-lists{
   display: flex;
   justify-content: center;
+  @include tablet {
+    h3{
+      font-size: 1.5rem;
+    }
+    i{
+      padding-top: .5em;
+    }
+  }
 }
 
 .service-lists ul li{
@@ -177,4 +185,11 @@
 }
 .fa-icon-service{
   padding-top: 1.1em;
+}
+.fa-icon-cm{
+  width: 2em !important;
+  color: rgb(230, 138, 0);
+}
+.orange-text{
+  color: rgb(230, 138, 0);
 }
