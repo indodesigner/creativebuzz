@@ -3393,4 +3393,8 @@ textarea.form-control {
   width: 300px;
   height: 300px;
   display: flex;
+}
+
+.fa-icon-service {
+  padding-top: 1.1em;
 }/*# sourceMappingURL=style.css.map */
