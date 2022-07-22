@@ -3315,6 +3315,13 @@ textarea.form-control {
   width: inherit;
 }
 
+.strategies_video_head {
+  font-weight: 400;
+  font-family: "Staatliches", cursive;
+  padding-top: 16px;
+  width: inherit;
+}
+
 .poly_shape_service_1 {
   position: absolute;
   top: 400px;
@@ -3414,4 +3421,17 @@ textarea.form-control {
 
 .orange-text {
   color: rgb(230, 138, 0);
+}
+
+.services-video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+}
+
+.video-card-bg {
+  background-color: rgba(0, 0, 0, 0.336);
+  border-radius: 0.5em;
+  width: inherit;
+  height: inherit;
 }/*# sourceMappingURL=style.css.map */
