@@ -3419,8 +3419,17 @@ textarea.form-control {
   color: rgb(230, 138, 0);
 }
 
+.fa-icon-em {
+  width: 2em !important;
+  color: #50b9ff;
+}
+
 .orange-text {
   color: rgb(230, 138, 0);
+}
+
+.blue-text {
+  color: #50b9ff;
 }
 
 .services-video {
@@ -3434,4 +3443,20 @@ textarea.form-control {
   border-radius: 0.5em;
   width: inherit;
   height: inherit;
+}
+
+.em-card {
+  padding: 1em;
+  border: 0.05em solid;
+  border-color: rgb(164, 220, 255);
+  border-radius: 0.5em;
+  background-color: #ffffff;
+}
+
+.em-list {
+  min-height: 300px;
+}
+
+.em-blue {
+  color: #50b9ff;
 }/*# sourceMappingURL=style.css.map */

@@ -198,8 +198,16 @@
   width: 2em !important;
   color: rgb(230, 138, 0);
 }
+.fa-icon-em{
+  width: 2em !important;
+  color: $cb-blue-pastel;
+}
+
 .orange-text{
   color: rgb(230, 138, 0);
+}
+.blue-text{
+  color: $cb-blue-pastel;
 }
 
 
@@ -213,4 +221,22 @@
   border-radius: .5em;
   width: inherit;
   height: inherit;
+}
+
+
+// ...............event-management.................
+
+.em-card{
+  padding: 1em;
+  border: .05em solid;
+  border-color: rgb(164, 220, 255);
+  border-radius: .5em;
+  background-color: #ffffff;
+}
+.em-list{
+  min-height: 300px;
+}
+
+.em-blue{
+  color: $cb-blue-pastel;
 }
