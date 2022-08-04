@@ -113,9 +113,12 @@ ul{
   list-style: none;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 a{
   text-decoration: none;
+  font-family: $secondary-font;
+  font-weight: bold;
 }
 
 
@@ -139,12 +142,12 @@ a{
 /* sidenav */
 #sidenav{
   $size-f: 0.9; /* size factor, 2 for double of sidebar */
-  $width: 30em; /* side nav width */
-  $back-color: #111;
-  $text-color: white;
-  $close-btn-s: 5em; /* increase/decrease to size the close btn */
+  $width: 28em; /* side nav width */
+  $back-color: rgb(255, 255, 255);
+  $text-color: rgb(0, 0, 0);
+  $close-btn-s: 4em; /* increase/decrease to size the close btn */
   $nav-item-s: 1.3em; 
-  font-size: 1em*$size-f;
+  font-size: .9em*$size-f;
   z-index: 100;
   position: fixed;
   right: 0;
@@ -160,6 +163,7 @@ a{
   a{color: darken($text-color, 30);}
   a:hover{color: darken($text-color,80);}
   .closebtn{
+    padding-top: .5em;
     flex: 0 0 1.2em;
     font-size: $close-btn-s; 
     width: 1.5em;
@@ -173,10 +177,11 @@ a{
     overflow-y: auto;
     width: 100%;
     font-size: $nav-item-s;
-    padding: 1em 0.5em 1em 1em;
+    font-weight: 500;
+    padding: 1em 0.5em 1em 2em;
     .side-item{
-      margin-top: 1.3em;
-      border-bottom: 1px solid #2f2f2f;
+      margin-top: .5em;
+      // border-bottom: 1px solid #2f2f2f;
       &:first-child{margin-top: 0;}
     }
   }
@@ -195,13 +200,16 @@ a{
       transform: translate(0.5em, -0.25em) rotateZ(180deg);
     }
     .dropdown-items{
-      padding: 0.3em 0 0.3em 0.5em;
+      padding: 0.3em 0 0.3em 0em;
       max-height: 0;
       overflow-x: hidden;
       overflow-y: scroll;
       transition: all 0.7s;
       .dropdown-item{
         padding-top: 0.3em;
+        a{
+          font-weight: 400;
+        }
         &::before{
           content: " ";
         }
@@ -221,9 +229,9 @@ a{
  #sidenav{
    $size-f: 0.9; /* size factor, 2 for double of sidebar */
    $width: 20em; /* side nav width */
-   $back-color: #111;
-   $text-color: white;
-   $close-btn-s: 5em; /* increase/decrease to size the close btn */
+   $back-color: rgb(255, 255, 255);
+   $text-color: rgb(0, 0, 0);
+   $close-btn-s: 4em; /* increase/decrease to size the close btn */
    $nav-item-s: 1.3em; 
    font-size: 1em*$size-f;
    z-index: 100;
@@ -254,10 +262,11 @@ a{
      overflow-y: auto;
      width: 100%;
      font-size: $nav-item-s;
+     font-weight: 500;
      padding: 1em 0.5em 1em 1em;
      .side-item{
-       margin-top: 1.3em;
-       border-bottom: 1px solid #2f2f2f;
+       margin-top: .5em;
+      //  border-bottom: 1px solid #2f2f2f;
        &:first-child{margin-top: 0;}
      }
    }
@@ -276,13 +285,16 @@ a{
        transform: translate(0.5em, -0.25em) rotateZ(180deg);
      }
      .dropdown-items{
-       padding: 0.3em 0 0.3em 0.5em;
+       padding: 0.3em 0 0.3em 0em;
        max-height: 0;
        overflow-x: hidden;
        overflow-y: scroll;
        transition: all 0.7s;
        .dropdown-item{
          padding-top: 0.3em;
+         a{
+          font-weight: 400;
+        }
          &::before{
            content: " ";
          }
@@ -303,37 +315,38 @@ a{
   #sidenav .side-nav-items{
     &::-webkit-scrollbar-track
     {
-      box-shadow: inset 0 0 6px rgba(0,0,0,1);
       border-radius: 10px;
       background-color: #CCCCCC;
     }
     &::-webkit-scrollbar{
-      width: 0.4em;
+      width: 0em;    //hide side-nav-items scrollbar
       background-color: #757575;
     }
 
     &::-webkit-scrollbar-thumb{
       border-radius: 10px;
-      box-shadow: inset 0 0 6px rgba(0,0,0,.3);
       background-color: #555;
     }
   }
   .dropdown-items{
     &::-webkit-scrollbar-track
     {
-      box-shadow: inset 0 0 6px rgba(0,0,0,1);
       border-radius: 10px;
       background-color: #CCCCCC;
     }
     &::-webkit-scrollbar{
-      width: 0.4em;
-      background-color: #757575;
+      width: 0.3em;
     }
 
     &::-webkit-scrollbar-thumb{
       border-radius: 10px;
-      box-shadow: inset 0 0 6px rgba(0,0,0,.3);
       background-color: #555;
     }
   }
+}
+
+// ..................................................................
+
+.nav-social-link{
+ padding: .5em;
 }
