@@ -3285,15 +3285,15 @@ textarea.form-control {
 }
 
 .try-hover-bg-blue:hover {
-  background-color: #50b9ff;
+  background-color: #89d0ff;
 }
 
 .try-hover-bg-pink:hover {
-  background-color: #f98eb3;
+  background-color: #fdabc8;
 }
 
 .try-hover-bg-green:hover {
-  background-color: #c1ff6b;
+  background-color: #d2fd96;
 }
 
 .bg-orange {
@@ -3301,15 +3301,15 @@ textarea.form-control {
 }
 
 .bg-blue {
-  background-color: #50b9ff;
+  background-color: #89d0ff;
 }
 
 .bg-pink {
-  background-color: #f98eb3;
+  background-color: #fdabc8;
 }
 
 .bg-green {
-  background-color: #c1ff6b;
+  background-color: #d2fd96;
 }
 
 .strategies_head {
@@ -3430,7 +3430,7 @@ textarea.form-control {
 
 .fa-icon-em {
   width: 2em !important;
-  color: #50b9ff;
+  color: #89d0ff;
 }
 
 .orange-text {
@@ -3438,7 +3438,7 @@ textarea.form-control {
 }
 
 .blue-text {
-  color: #50b9ff;
+  color: #89d0ff;
 }
 
 .services-video {
@@ -3467,5 +3467,5 @@ textarea.form-control {
 }
 
 .em-blue {
-  color: #50b9ff;
+  color: #89d0ff;
 }/*# sourceMappingURL=style.css.map */
