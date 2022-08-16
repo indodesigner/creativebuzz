@@ -3430,7 +3430,7 @@ textarea.form-control {
 
 .fa-icon-em {
   width: 2em !important;
-  color: #89d0ff;
+  color: rgb(28, 129, 160);
 }
 
 .orange-text {
@@ -3438,7 +3438,7 @@ textarea.form-control {
 }
 
 .blue-text {
-  color: #89d0ff;
+  color: rgb(28, 129, 160);
 }
 
 .services-video {
