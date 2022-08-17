@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 h1, .h1 {
-  font-size: 50px;
+  font-size: 56px !important;
   letter-spacing: 0.1rem;
 }
 @media (max-width: 575px) {
@@ -70,7 +70,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 37px;
+  font-size: 37px !important;
   letter-spacing: 0.1rem;
 }
 
@@ -98,6 +98,11 @@ h6, .h6 {
 
 .subhead {
   font-weight: 400;
+}
+
+.special-font {
+  font-family: "Staatliches", cursive !important;
+  font-weight: 200 !important;
 }
 
 .btn {
@@ -471,7 +476,7 @@ body {
   right: 0;
   bottom: 0;
   background-color: #fff;
-  z-index: 999;
+  z-index: 99999;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -515,8 +520,8 @@ a:hover {
 }
 
 .section {
-  padding-top: 400px;
-  padding-bottom: 130px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .section-sm {
   padding-top: 40px;
@@ -851,15 +856,6 @@ mark {
   width: 4em;
 }
 
-.container svg {
-  margin-top: 0em;
-  position: absolute;
-  width: 2em;
-  animation: arrowsvganim 1s alternate-reverse infinite;
-}
-.container svg path {
-  fill: rgb(0, 0, 0);
-}
 .container-footer {
   margin-left: 100px;
   margin-right: 100px;
@@ -905,10 +901,6 @@ mark {
 .twitter:hover {
   color: #FF7D6D;
   text-decoration: none;
-}
-
-span {
-  display: block;
 }
 
 img {
@@ -2021,6 +2013,11 @@ a {
   padding: 0.5em;
 }
 
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .hero-section {
   padding-top: 250px;
   padding-bottom: 250px;
@@ -2938,8 +2935,10 @@ svg polygon {
 }
 
 .blog_card_img {
-  width: 300px;
-  height: 200px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+  height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 8px;
@@ -3006,6 +3005,21 @@ svg polygon {
 }
 .services-card-height h4 {
   min-height: 75px;
+}
+
+.card-adjust {
+  min-height: 200px;
+}
+
+.read-more-arrow {
+  font-size: 2em !important;
+  color: gray;
+}
+
+.read-more-arrow-circle {
+  padding-left: 0.5em;
+  font-size: 1em !important;
+  color: gray;
 }
 
 .about {

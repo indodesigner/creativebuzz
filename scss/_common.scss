@@ -18,7 +18,7 @@ body {
   right: 0;
   bottom: 0;
   background-color: #fff;
-  z-index: 999;
+  z-index: 99999;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,8 +61,8 @@ a:hover {
 }
 
 .section {
-  padding-top: 400px;
-  padding-bottom: 130px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   &-sm {
     padding-top: 40px;
@@ -377,15 +377,15 @@ mark{
 
 
 .container{
-  svg{
-      margin-top: 0em;
-      position: absolute;
-      width: 2em;
-      animation: arrowsvganim 1s alternate-reverse infinite;
-      path{
-          fill:rgb(0, 0, 0);
-      }
-  }
+  // svg{
+  //     margin-top: 0em;
+  //     position: absolute;
+  //     width: 2em;
+  //     animation: arrowsvganim 1s alternate-reverse infinite;
+  //     path{
+  //         fill:rgb(0, 0, 0);
+  //     }
+  // }
   &-footer{
     margin-left: 100px;
     margin-right: 100px;
@@ -447,9 +447,9 @@ mark{
   text-decoration: none;
 }
 
-span {
-  display: block;
-}
+// span {
+//   display: block;
+// }
 
 img {
   max-width: 100%;

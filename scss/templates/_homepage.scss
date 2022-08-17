@@ -675,11 +675,13 @@
 
 
   .blog_card_img{
-    width: 300px;
-    height: 200px;
+    width: fill;
+    height: 250px;
     object-fit: cover;
     border-radius: 8px;
   }
+
+
 
   .text_overflow_hide {
     text-overflow: ellipsis;
@@ -742,4 +744,19 @@
     h4{
       min-height: 75px;
     }
+   }
+
+   .card-adjust{
+    min-height: 200px;
+   }
+
+   .read-more-arrow{
+    font-size: 2em !important;
+    color: gray;
+   }
+
+   .read-more-arrow-circle{
+    padding-left: .5em;
+    font-size: 1em !important;
+    color: gray;
    }
