@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 h1, .h1 {
-  font-size: 56px !important;
+  font-size: 48px !important;
   letter-spacing: 0.1rem;
 }
 @media (max-width: 575px) {
@@ -521,6 +521,10 @@ a:hover {
 
 .slick-slide {
   outline: 0;
+}
+
+.round-corner-1 {
+  border-radius: 0.5em;
 }
 
 .section {
