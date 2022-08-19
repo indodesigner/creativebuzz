@@ -52,7 +52,7 @@
     <!-- |=====|| Preloader End ||=================| -->
     <!-- |==========================================| -->
 
-<div class="menu-toggle-btn-full-shape">
+<div class="menu-toggle-btn-full-shape z-index-nav">
   <div class="menu-toggle-wrap bg-white">
     <div class="sidebar-top-area d-flex justify-content-between align-items-center">
       <div class="sidebar-logo px-4 py-3 rounded"> <a href="#"><img src="assets/images/shapes/logo.png" alt="image"></a> </div>
@@ -176,11 +176,13 @@
   </div>
 </div>
 
-  <div class="container">
+<!-- ...................header............................ -->
+
+  <div class="fixed-top header-bg">
 <header class="header-area style-1 style-3">
 
          <div class="header-logo"> <a href="#"><img alt="image" src="assets/images/shapes/logo.png"></a> </div>
-  <div class="main-nav d-none">
+  <!-- <div class="main-nav d-none">
     <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
       <div class="mobile-logo-wrap "> <a href="#"><img alt="image" src="assets/images/shapes/logo.png"></a> </div>
       <div class="menu-close-btn"> <i class="bi bi-x-lg text-white"></i> </div>
@@ -221,24 +223,23 @@
         </div>
       </form>
     </div>
-  </div>
+  </div> -->
+  
   <div class="nav-right style-2 d-flex align-items-center gap-4">
-    <div class="mobile-menu-btn d-lg-none d-block">
+    <!-- <div class="mobile-menu-btn d-lg-none d-block">
       <h5 class="text-dark mb-0">MENU</h5>
-    </div>
+    </div> -->
    
     <div class="hotline d-xxl-flex">
-      <div class="hotline-icon">
+      <div class="hotline-info d-flex flex-column"> 
+        <h6>Message Us</h6>
+        <!-- <a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#731a1d151c33160b121e031f165d101c1e"><span class="__cf_email__" data-cfemail="83eaede5ecc3e6fbe2eef3efe6ade0ecee">info@creativebuzz.com</span></a> -->
+      <a href="mailto:info@creativebuzz.com"><i class="bi bi-envelope-fill mail-icon-header"></i>info@creativebuzz.com</a>
       </div>
-
-        
-
-      <div class="hotline-info"> <span>Message Us</span>
-        <h6><a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#731a1d151c33160b121e031f165d101c1e"><span class="__cf_email__" data-cfemail="83eaede5ecc3e6fbe2eef3efe6ade0ecee">info@creativebuzz.com</span></a></h6>
-      </div>
-
       
-    </div><div class="eg-btn btn--primary header-btn">
+    </div>
+    
+    <div class="eg-btn btn--primary header-btn">
         <a href="contact.html">LET'S TALK</a>
         </div>
     <div class="header-icons d-flex align-items-center">
@@ -250,6 +251,7 @@
   </header>
     </div>
  
+    <!-- .........header-end................ -->
  
 
 
@@ -968,7 +970,7 @@
         <h5 class="text-uppercase font-weight-bold mb-4 text__white">Useful Links</h5>
         <ul class="list-unstyled mb-0">
           <li class="mb-1"><a href="#about" class="f-hover text__white font-weight-bold">About Us</a></li>
-          <li class="mb-1"><a href="#about" class="f-hover text__white font-weight-bold">Our Services</a></li>
+          <li class="mb-1"><a href="#services" class="f-hover text__white font-weight-bold">Our Services</a></li>
           <li class="mb-1"><a href="#blogs" class="f-hover text__white font-weight-bold">Our Blog</a></li>
         </ul>
       </div>

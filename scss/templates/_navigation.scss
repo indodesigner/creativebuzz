@@ -104,8 +104,34 @@ footer{
   width: 250px;
 }
 
+.mail-icon-header{
+  font-size: 1em;
+  padding-right: .5em;
+}
 
 
+.header-bg{
+width: 100%;
+}
+
+.z-index-nav{
+  z-index: 99999 !important;
+}
+
+
+.hotline-info{
+  a:hover{
+  color: gray;
+  }
+}
+
+.header-area{
+  padding: 1em 4em !important;
+
+  @include tablet {
+    padding: 1em 1em !important;
+  }
+}
 
 // .........................NAV-NEW..............................
 
@@ -137,6 +163,7 @@ a{
     align-items: center;
   }
 }
+
 
 
 /* sidenav */

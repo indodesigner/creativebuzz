@@ -3146,7 +3146,7 @@ transform:scale(1.8)
 }
 .banner-section3 .banner-social3 {
 	position: absolute;
-	left: -7%;
+	left: -6%;
 	top: 50%;
 	transform: translateY(-50%) rotate(270deg);
 	display: flex;
