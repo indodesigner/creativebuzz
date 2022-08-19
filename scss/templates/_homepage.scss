@@ -761,3 +761,89 @@
     color: gray;
    }
    
+  //  .services-card-bg-1{
+  //   background-image: url("/images/service/service-img-1.jpg") !important;
+  //   background-repeat: no-repeat !important;
+  //   width: 300 !important;
+  //   height: 300 !important;
+  //  }
+
+
+
+  // ....services-cards......................
+  .bg-black {
+    background-color: #000;
+  }
+  
+  .card {
+    border-radius: 5px;
+    height: 300px;
+    overflow: hidden;
+    max-width: 400px;
+    // border: solid 1em white;
+    
+    .category-img {
+          min-width: 100%;
+          min-height: 100%;
+          opacity: .5;
+          transition: all, 0.3s;
+          object-fit: cover;
+      }
+    
+    .card-img-overlay {
+
+        display: flex;
+        flex-direction: column !important;
+        flex-direction: column-reverse !important;
+        // justify-content: space-between;
+
+          .category-card-title {
+              bottom: 50%;
+              color: white;
+              // left: 20px;
+              // position: absolute;
+              text-shadow: 2px 2px 10px #000;
+          }
+  
+          // .btn-category-card {
+          //     position: absolute;
+          //     bottom: 20px;
+          //     right: 20px;
+          // }
+           
+          h4{
+            color: white;
+          }
+          p{
+            color: white;
+            
+          }
+
+          p{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+         
+
+      }
+    
+    &:hover .category-img {
+      transform: scale(1.2);
+    }
+
+
+  }
+  
+  .arrow-center{
+    display: flex;
+    justify-content: center;
+    i{
+      font-size: 5em;
+    }
+  }
+
+  .item-center{
+    display: flex;
+    justify-content: center;
+  }
