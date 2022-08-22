@@ -414,6 +414,16 @@ a{
  
 }
 
+.active{
+  background-color: $cb-pink-2;
+    li{
+      color: white;
+    }
+    i{
+      color: white;
+    }
+}
+
 .inner-nav-head{
   display: flex;
   justify-content: center;

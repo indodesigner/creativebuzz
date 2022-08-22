@@ -1867,6 +1867,16 @@ a {
   color: white;
 }
 
+.active {
+  background-color: #EC336C;
+}
+.active li {
+  color: white;
+}
+.active i {
+  color: white;
+}
+
 .inner-nav-head {
   display: flex;
   justify-content: center;
