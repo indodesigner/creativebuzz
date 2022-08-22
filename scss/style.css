@@ -15,6 +15,7 @@ VERSION:	Versoin Number
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
 body {
   line-height: 31px;
   font-family: "Raleway", sans-serif;
@@ -1843,6 +1844,38 @@ a {
   position: sticky;
 }
 
+.inner-nav {
+  box-shadow: 0px 5px 20px 0px rgba(226, 226, 226, 0.473);
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.inner-nav-li a {
+  color: #555;
+  border: solid 0.05em rgb(240, 240, 240);
+  border-radius: 0.3em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.inner-nav-li a li {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+.inner-nav-li a:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #EC336C;
+  color: white;
+}
+
+.inner-nav-head {
+  display: flex;
+  justify-content: center;
+}
+.inner-nav-head h4 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 300;
+}
+
 .hero-section {
   padding-top: 250px;
   padding-bottom: 250px;
@@ -3267,9 +3300,10 @@ textarea.form-control {
 }
 
 .text-xs {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5em;
   min-height: 65px;
+  font-weight: 300;
 }
 
 .bg-clr {
