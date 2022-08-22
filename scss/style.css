@@ -2906,6 +2906,10 @@ svg polygon {
   justify-content: center;
 }
 
+.hero-bg-height {
+  min-height: 100vh !important;
+}
+
 .about {
   position: relative;
   overflow: visible;
