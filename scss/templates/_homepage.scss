@@ -786,7 +786,7 @@
           min-width: 100%;
           min-height: 100%;
           opacity: .5;
-          transition: all, 0.3s;
+          transition: all, 1s;
           object-fit: cover;
       }
     
@@ -859,3 +859,12 @@
   .hero-bg-height{
     min-height: 100vh !important;
   }
+
+  .blog_card_img_anim{
+    transition: all, 1s;
+  }
+
+  .blog_card_img_anim:hover{
+    transform: scale(1.05);
+  }
+  

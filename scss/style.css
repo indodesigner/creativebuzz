@@ -2861,7 +2861,7 @@ svg polygon {
   min-width: 100%;
   min-height: 100%;
   opacity: 0.5;
-  transition: all, 0.3s;
+  transition: all, 1s;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -2908,6 +2908,14 @@ svg polygon {
 
 .hero-bg-height {
   min-height: 100vh !important;
+}
+
+.blog_card_img_anim {
+  transition: all, 1s;
+}
+
+.blog_card_img_anim:hover {
+  transform: scale(1.05);
 }
 
 .about {
