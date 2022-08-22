@@ -3451,4 +3451,12 @@ textarea.form-control {
 
 .em-blue {
   color: #89d0ff;
+}
+
+.video-card {
+  max-width: 100%;
+}
+
+.services-video {
+  filter: brightness(50%);
 }/*# sourceMappingURL=style.css.map */
