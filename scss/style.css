@@ -1597,7 +1597,7 @@ footer {
 }
 
 .hotline-info a:hover {
-  color: gray;
+  color: #e00169;
 }
 
 .header-area {
@@ -2897,6 +2897,9 @@ svg polygon {
 .arrow-center i {
   font-size: 5em;
 }
+.arrow-center a:hover {
+  color: #e00169;
+}
 
 .item-center {
   display: flex;
@@ -3155,6 +3158,9 @@ textarea.form-control {
 }
 .feature-icon_green {
   background: #7DD302;
+}
+.feature-icon_pink {
+  background: #EC336C;
 }
 
 .service_hero {
