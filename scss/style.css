@@ -1876,6 +1876,32 @@ a {
   font-weight: 300;
 }
 
+.offer-card {
+  border-radius: 0.5em !important;
+  max-width: 100% !important;
+}
+
+.offer-card-img {
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(60%);
+  transition: all, 1s;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 0.5em;
+}
+
+.col-reverse {
+  display: flex;
+  flex-direction: row !important;
+}
+@media (max-width: 767px) {
+  .col-reverse {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+}
+
 .hero-section {
   padding-top: 250px;
   padding-bottom: 250px;

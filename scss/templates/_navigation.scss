@@ -422,3 +422,28 @@ a{
     font-weight: 300;
   }
 }
+
+.offer-card{
+  border-radius: .5em !important;
+  max-width: 100% !important;
+}
+.offer-card-img{
+    min-width: 100%;
+    min-height: 100%;
+    filter:brightness(60%);
+    transition: all, 1s;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: .5em;
+}
+
+.col-reverse{
+  display: flex;
+  flex-direction: row !important;
+
+  @include tablet {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+
+}
