@@ -2,74 +2,140 @@
 <html lang="zxx">
 
 <head>
-  <meta charset="utf-8">
-  <title>CreativeBuzz - Australia</title>
-
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <title>CreativeBuzz - Australia</title>
   
-  <!-- ** Plugins Needed for the Project ** -->
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- themefy-icon -->
-  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-  <!-- slick slider -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <!-- venobox popup -->
-  <link rel="stylesheet" href="plugins/Venobox/venobox.css">
-  <!-- aos -->
-  <link rel="stylesheet" href="plugins/aos/aos.css">
-
-  <!-- Main Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- themefy-icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <!-- venobox popup -->
+    <link rel="stylesheet" href="plugins/Venobox/venobox.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="plugins/aos/aos.css">
   
-  <!--Favicon-->
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-</head>
+    <!-- Main Stylesheet -->
+    <link href="scss/style.css" rel="stylesheet">
+    <!-- <link href="style_2.css" rel="stylesheet"> -->
+    
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+  
+  
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
+    <script src="https://unpkg.com/scrollreveal"></script>
+  
+  
+  </head>
 
 <body>
   
-
+ 
+  <a href="#" class="go-top" id="myBtn"><i class="btotop fa-solid fa-arrow-up-long"></i></a>
 <!-- navigation -->
 <section class="fixed-top navigation">
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+
+      <nav class="navbar  navbar-light horizontal-nav">
+        <span class="logo">
+      <a class="navbar-brand logo-1" href="index.html"><img src="images/logo_light.png" alt="logo"></a>
+      <a class="navbar-brand logo-2 hide" href="index.html"><img src="images/logo.png" alt="logo"></a>
+      </span>
+      <button id="nav-toggle-btn" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
         aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1 ham menu__color__dark"></div>
+          <div class="bar2 ham menu__color__dark"></div>
+          <div class="bar3 ham menu__color__dark"></div>
+        </div>
+        
       </button>
-      <!-- navbar -->
-      <div class="collapse navbar-collapse text-center" id="navbar">
+
+      <!-- <div class="collapse navbar-collapse text-center nav__background__dark nav__background" id="navbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link page-scroll" href="index.html#home"><span class="nav-span nav-link-color">Home</span></a>
+          </li>
+     
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#about"><span class="nav-span nav-link-color">About</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="index.html#feature">Feature</a>
+            <a class="nav-link page-scroll" href="#services"><span class="nav-span nav-link-color">Service</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link page-scroll" href="#blogs"><span class="nav-span nav-link-color">Blogs</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="service.html">Service</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link page-scroll" href="index.html#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link page-scroll" href="index.html#pricing">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link page-scroll" href="#contact"><span class="nav-span nav-link-color">Contact</span></a>
           </li>
         </ul>
-        <a href="#" class="btn btn-primary ml-lg-3 primary-shadow">Try Free</a>
-      </div>
+        <a href="#" class="btn talk-button btn-talk  ml-lg-3">Let's Talk</a>
+      </div> -->
     </nav>
+
+
+<div id="sidenav">
+ <!-- <a href="javascript:void(0)" class="closebtn">&times;</a> -->
+ <div class="d-flex"><a class="navbar-brand pr-4 pt-4" href="index.html"><img src="images/logo.png" alt="logo"></a><a href="javascript:void(0)" class="closebtn ml-5">&times;</a></div>
+
+ <ul class="side-nav-items">
+  <li class="side-item"><a class="page-scroll" href="#about">About</a></li>
+  <li class="side-item dropdown"><a class="page-scroll" href="#services">Services</a>
+    <ul class="dropdown-items">
+      <li class="dropdown-item"><a href="marketing_strategy.html" class="font-light">Marketing Strategy</a></li>
+      <li class="dropdown-item"><a href="brand_marketing.html" class="font-light">Brand Marketing</a></li>
+      <li class="dropdown-item"><a href="digital_marketing_communication.html" class="font-light">Digital Marketing & Communication</a></li>
+      <li class="dropdown-item"><a href="online_marketing_automation.html" class="font-light">Online Marketing & Automation</a></li>
+      <li class="dropdown-item"><a href="content_management.html" class="font-light">Content Marketing</a></li>
+      <li class="dropdown-item"><a href="web_development.html" class="font-light">Web Development</a></li>
+      <li class="dropdown-item"><a href="video_creation.html" class="font-light">Video Creation</a></li>
+      <li class="dropdown-item"><a href="event_management.html" class="font-light">Event Management</a></li>
+    </ul>  
+  </li>
+  <li class="side-item"> <a class="page-scroll" href="#blogs">Blogs</a></li>
+  <li class="side-item"><a class="page-scroll" href="#contact">Contact Us</a></li>
+  
+ 
+
+ <div class="row mt-4">
+   <div class="col-12"> 
+     <h4><i class="fa-solid fa-location-dot pr-2"></i>Australia</h4>
+     <p><strong>Address:</strong> 403, 189B South Center Road,<br> Tullamarine, VIC,<br> Australia- 3043</p>
+       <p><strong>Phone:</strong>+61 452 551 435</p>
+       <p><strong>Email:</strong> info@creativebuzz.com</p>
+   </div>
+
+   <div class="col-12">
+     <h4>Follow Us</h4>
+     <p>Follow us on Social Network</p>
+   </div>
+
+     <div class="col-12 pl-4 d-flex">
+      <a href="https://www.facebook.com/CreativeBuzz-Australia-107325518571077" class="nav-social-link"><i class="fa fa-brands fa-facebook-f"></i></a>
+      <a href="https://twitter.com/_creativebuzz" class="nav-social-link"><i class="fa fa-brands fa-twitter"></i></a>
+      <a href="https://www.instagram.com/creativebuzz.au/" class="nav-social-link"><i class="fa fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/creative-buzz-au/?viewAsMember=true" class="nav-social-link"><i class="fa fa-brands fa-linkedin"></i></a>
+      
+      </div>
+ </div>
+</ul>
+</div>
+
+
+
   </div>
 </section>
 <!-- /navigation -->
@@ -99,7 +165,7 @@
                 <p>71 Shelton Street<br>London WC2H 9JQ England</p>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <!-- <div class="row justify-content-center">
             <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                 <div class="card p-4 border-blue">
                     <h5><i class="ti-layers-alt round-icon blue mr-2"></i> Sales</h5>
@@ -118,60 +184,190 @@
                     <p class="mb-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- background shapes -->
-    <img class="contact-bg-1 up-down-animation" src="images/background-shape/feature-bg-2.png" alt="background-shape">
+    <!-- <img class="contact-bg-1 up-down-animation" src="images/background-shape/feature-bg-2.png" alt="background-shape">
     <img class="contact-bg-2 left-right-animation" src="images/background-shape/green-half-cycle.png" alt="background-shape">
     <img class="contact-bg-3 up-down-animation" src="images/background-shape/green-dot.png" alt="background-shape">
     <img class="contact-bg-4 left-right-animation" src="images/background-shape/service-half-cycle.png" alt="background-shape">
-    <img class="contact-bg-5 up-down-animation" src="images/background-shape/feature-bg-2.png" alt="background-shape">
+    <img class="contact-bg-5 up-down-animation" src="images/background-shape/feature-bg-2.png" alt="background-shape"> -->
 </section>
 <!-- /contact -->
 
-<!-- footer -->
-<footer class="footer-section footer" style="background-image: url(images/backgrounds/footer-bg.png);">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
-        <!-- logo -->
-        <a href="index.html">
-          <img class="img-fluid" src="images/logo.png" alt="logo">
-        </a>
-      </div>
-      <!-- footer menu -->
-      <nav class="col-lg-8 align-self-center mb-5">
-        <ul class="list-inline text-lg-right text-center footer-menu">
-          <li class="list-inline-item active"><a href="index.html">Home</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="#feature">Feature</a></li>
-          <li class="list-inline-item"><a href="about.html">About</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="#team">Team</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="#pricing">Pricing</a></li>
-          <li class="list-inline-item"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <!-- footer social icon -->
-      <nav class="col-12">
-        <ul class="list-inline text-lg-right text-center social-icon">
-          <li class="list-inline-item">
-            <a class="facebook" href="#"><i class="ti-facebook"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a class="twitter" href="#"><i class="ti-twitter-alt"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a class="linkedin" href="#"><i class="ti-linkedin"></i></a>
-          </li>
-          <li class="list-inline-item">
-            <a class="black" href="#"><i class="ti-github"></i></a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</footer>
-<!-- /footer -->
 
+
+<!-- client logo slider -->
+<section class="section z-index_top">
+  <div class="container">
+    <div class="col-lg-12 mb-5">
+      <h2 class="section-title slide-up">Our Clients</h2>
+      <p class="mb-50 reveal-fast subhead">We can bring your vision to life, whether a household name or a dynamic start-up.</p>
+      </div>
+      <div class="client-logo-slider align-self-center reveal-slow">
+          <a href="https://pfgmoney.com.au/" class="text-center d-block outline-0 p-5"><img class="d-unset img-fluid" src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+          <a href="https://pentaelsternwick.com.au/" class="text-center d-block outline-0 p-5"><img class="d-unset img-fluid" src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+          <a href="https://www.cresteum.com/" class="text-center d-block outline-0 p-5"><img class="d-unset img-fluid" src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+          <a href="https://eremit.com.au/" class="text-center d-block outline-0 p-5"><img class="d-unset img-fluid" src="images/clients-logo/client-logo-7.png" alt="client-logo"></a>
+          <!-- <a href="https://www.pfg.com.au/" class="text-center d-block outline-0 p-5"><img class="d-unset img-fluid" src="images/clients-logo/client-logo-4.png" alt="client-logo"></a> -->
+          <!-- <a href="https://www.eremit.com.my/home" class="text-center d-block outline-0 p-5"><img class="d-unset img-fluid" src="images/clients-logo/client-logo-5.png" alt="client-logo"></a> -->
+          <a href="https://www.moneygram.com/mgo/au/en/" class="text-center d-block outline-0 p-5"><img class="d-unset img-fluid" src="images/clients-logo/client-logo-6.png" alt="client-logo"></a>
+          <a href="https://online.pfgsmartcredit.com.au/" class="text-center d-block outline-0 p-5"><img class="d-unset img-fluid" src="images/clients-logo/client-logo-8.png" alt="client-logo"></a>
+          <a href="https://digitalbusinesscards.com.au/" class="text-center d-block outline-0 p-5"><img class="d-unset img-fluid" src="images/clients-logo/client-logo-9.png" alt="client-logo"></a>
+
+      </div>
+  </div>
+  <div class="bg_shapes move_shape_reverse"><img class="img-fluid hero-bg-4 up-down-animation rotate_shape" src="images/background-shape/poly-hero-shape-4.png" alt=""></div>
+</section>
+<!-- /client logo slider -->
+
+
+<!-- contact -->
+<!-- <section id="contact" class="section-lg contact">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-title slide-up"><mark class="text__white">Keen to chat?</mark></h2>
+              <p class="mb-50 reveal-slower"> Have a marketing campaign, web design or development project in mind?</p>
+          </div>
+      </div>
+      <div class="row contact-bg p-5 rounded mb-5 reveal-slower">
+        <p class="mb-50 reveal-slower"> Book a FREE strategy consultation with us or drop us a call at <a href="tel:+61452551435">+61 452 551 435</a> or you can visit us at </p>
+          <div class="contact__form col-lg-6 mb-4 mb-lg-0">
+              <form action="#">
+                  <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
+                  <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
+                  <input type="text" class="form-control mb-3" id="phone" name="phone" placeholder="Phone Number">
+                  <textarea name="message" id="message" class="form-control mb-3" placeholder="Your Message"></textarea>
+                  <button type="submit" value="send" class="btn btn-black submit_btn">SEND MESSAGE</button>
+              </form>
+          </div>
+          <div class="col-lg-6">
+    
+                <div class="text-left">
+                  <div class="row justify-content-center">
+                    <div class="col-md-10 text-center">
+                      <h5 class="mb-2 text-center">Book Appointment</h5>
+                      <form action="#" class="row">
+                        <div class="col-md-12">
+                          <div id="inline_cal"></div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-12 appointment_btn">
+                       <button type="submit" value="send" class="btn btn-black mb-5">Confirm Appointment</button>
+                      </div>
+                  </div>
+                      
+                </div>
+              </div>
+      </div>
+      
+  </div>
+</section> -->
+<!-- /contact -->
+
+
+
+<!-- Floating Social Media bar Starts -->
+<div class="float-sm">
+  <div class="fl-fl float-fb">
+    <!-- <i class="fa ti-facebook"></i> -->
+    <i class="fa fa-brands fa-facebook-f"></i>
+    <a href="https://www.facebook.com/CreativeBuzz-Australia-107325518571077" class="floating_link" target="_blank"> Like us!</a>
+  </div>
+  <div class="fl-fl float-tw">
+    <!-- <i class="fa ti-instagram"></i> -->
+    <i class="fa fa-brands fa-instagram"></i>
+    <a href="https://www.instagram.com/creativebuzz.au/" class="floating_link" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-gp">
+    <!-- <i class="fa ti-linkedin"></i> -->
+    <i class="fa fa-brands fa-linkedin"></i>
+    <a href="https://www.linkedin.com/company/creative-buzz-au/?viewAsMember=true" class="floating_link" target="_blank">Find us!</a>
+  </div>
+  <div class="fl-fl float-rs">
+    <!-- <i class="fa ti-twitter"></i> -->
+    <i class="fa fa-brands fa-twitter"></i>
+    <a href="https://twitter.com/_creativebuzz" class="floating_link" target="_blank">Follow us!</a>
+  </div>
+  <!-- <div class="fl-fl float-ig">
+    <i class="fa fa-instagram"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-pn">
+    <i class="fa fa-pinterest"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div> -->
+</div>
+
+
+<!-- footer -->
+<!-- <footer class="footer-section footer shuffle_bg_color_light"> -->
+  <footer class="footer-section footer">
+    <div class="container-footer">
+      <div class="row mb-4 bottom-border">
+  
+  
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+          <img class="img-fluid pb-5" src="images/logo_white.png" alt="Logo">
+          <!-- <h5 class="text-uppercase font-weight-bold mb-4 text__white">Contact Us</h5> -->
+          <ul class="list-unstyled mb-0 bottom-border pb-2">
+            <li class="mb-1"><a href="https://goo.gl/maps/q2zSzg1uECFSCQtA6" class="f-hover text__white font-weight-bold"><i class="f-icon-padding fa-solid fa-location-dot"></i>403, 189B South Center Road,<br> Tullamarine, VIC, Australia- 3043</a></li>
+            <li class="mb-1"><a href="tel:61 452 551 435" class="f-hover text__white font-weight-bold"><i class="f-icon-padding fa-solid fa-phone"></i>+61 452 551 435</a></li>
+            <li class="mb-1"><a href="mailto:info@creativebuzz.com" class="f-hover text__white font-weight-bold"><i class="f-icon-padding fa-solid fa-envelope"></i>info@creativebuzz.com</a></li>
+          </ul>
+          <div class="pt-3">
+            <a href="https://www.facebook.com/CreativeBuzz-Australia-107325518571077" class="floating_link" target="_blank"><i class="f-socials fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/creativebuzz.au/" class="floating_link" target="_blank"><i class="f-socials fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/creative-buzz-au/?viewAsMember=true" class="floating_link" target="_blank"><i class="f-socials fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/_creativebuzz" class="floating_link" target="_blank"><i class="f-socials fa-brands fa-twitter"></i></a>
+        </div>
+        </div>
+    
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase font-weight-bold mb-4 text__white">Useful Links</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1"><a href="#about" class="f-hover text__white font-weight-bold">About Us</a></li>
+            <li class="mb-1"><a href="#about" class="f-hover text__white font-weight-bold">Our Services</a></li>
+            <li class="mb-1"><a href="#blogs" class="f-hover text__white font-weight-bold">Our Blog</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase font-weight-bold mb-4 text__white">Services</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1"><a href="marketing_strategy.html" class="f-hover text__white font-weight-bold">Marketing Strategy</a></li>
+            <li class="mb-1"><a href="brand_marketing.html" class="f-hover text__white font-weight-bold">Brand Marketing</a></li>
+            <li class="mb-1"><a href="digital_marketing_communication.html" class="f-hover text__white font-weight-bold">Digital Marketing & Communication</a></li>
+            <li class="mb-1"><a href="online_marketing_automation.html" class="f-hover text__white font-weight-bold">Online Marketing & Automation</a></li>
+            <li class="mb-1"><a href="content_management.html" class="f-hover text__white font-weight-bold">Content Marketing</a></li>
+            <li class="mb-1"><a href="web_development.html" class="f-hover text__white font-weight-bold">Web Development</a></li>
+            <li class="mb-1"><a href="video_creation.html" class="f-hover text__white font-weight-bold">Video Creation</a></li>
+            <li class="mb-1"><a href="event_management.html" class="f-hover text__white font-weight-bold">Event Management</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase font-weight-bold mb-4 text__white">Support</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1"><a href="#about" class="f-hover text__white font-weight-bold">Contact Us</a></li>
+            <li class="mb-1"><a href="#about" class="f-hover text__white font-weight-bold">Live Chat</a></li>
+            <li class="mb-1"><a href="#blogs" class="f-hover text__white font-weight-bold">Our Terms</a></li>
+            <li class="mb-1"><a href="#contact" class="f-hover text__white font-weight-bold">Privacy Policy</a></li>
+          </ul>
+        </div>
+  
+      </div>
+      <p class="copyright-text center font-weight-bold">©2022 CreativeBuzz</p>
+    </div>
+  </footer>
+  <!-- /footer -->
+  
+
+
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/afae420b7c.js" crossorigin="anonymous"></script>
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>
 <!-- Bootstrap JS -->
@@ -184,6 +380,21 @@
 <script src="plugins/aos/aos.js"></script>
 <!-- Main Script -->
 <script src="js/script.js"></script>
+<!-- <script src="js/slider.js"></script> -->
+
+
+<script>
+  $('.navbar-collapse a').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
+</script>
+
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js'></script><script  src="./script.js"></script>
+
+<script src="js/rome.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
