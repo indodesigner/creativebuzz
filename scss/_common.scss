@@ -659,3 +659,8 @@ img {
   color: #cf0a66;
 }
 
+.float-sm{
+  @include mobile {
+    display: none;
+  }
+}

@@ -1129,6 +1129,12 @@ img {
   color: #cf0a66;
 }
 
+@media (max-width: 575px) {
+  .float-sm {
+    display: none;
+  }
+}
+
 .slide__right {
   -webkit-animation: slideInLeft;
           animation: slideInLeft;
