@@ -101,3 +101,10 @@
   z-index: -1;
 }
 
+.mobile-gap-3{
+
+  @include desktop {
+    display: flex;
+    gap: 2em;
+  }
+}

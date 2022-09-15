@@ -14,7 +14,7 @@ textarea.form-control{
 .contact-bg{
     background-color: #ecf3ffd3;
     padding: 3em;
-    @include mobile {
+    @include tablet {
     padding: 2em .5em;
     display: flex;
     flex-direction: column-reverse;

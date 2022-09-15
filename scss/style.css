@@ -3132,6 +3132,13 @@ svg polygon {
   z-index: -1;
 }
 
+@media (max-width: 991px) {
+  .mobile-gap-3 {
+    display: flex;
+    gap: 2em;
+  }
+}
+
 .form-control {
   height: 65px;
   width: 100%;
@@ -3150,7 +3157,7 @@ textarea.form-control {
   background-color: rgba(236, 243, 255, 0.8274509804);
   padding: 3em;
 }
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .contact-bg {
     padding: 2em 0.5em;
     display: flex;
