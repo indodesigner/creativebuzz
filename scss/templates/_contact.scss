@@ -13,6 +13,13 @@ textarea.form-control{
 
 .contact-bg{
     background-color: #ecf3ffd3;
+    padding: 3em;
+    @include mobile {
+    padding: 2em .5em;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2em;
+      }
 }
 
 .round-icon{

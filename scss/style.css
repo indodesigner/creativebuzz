@@ -3148,6 +3148,15 @@ textarea.form-control {
 
 .contact-bg {
   background-color: rgba(236, 243, 255, 0.8274509804);
+  padding: 3em;
+}
+@media (max-width: 575px) {
+  .contact-bg {
+    padding: 2em 0.5em;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2em;
+  }
 }
 
 .round-icon {
