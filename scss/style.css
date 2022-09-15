@@ -562,7 +562,13 @@ a:hover {
 @media (max-width: 1200px) {
   .section-hero {
     padding-top: 200px;
-    padding-bottom: 400px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .section-hero {
+    padding-top: 200px;
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 575px) {
@@ -2595,6 +2601,14 @@ svg polygon {
 
 .client-logo-slider img {
   transition: 0.2s ease;
+}
+@media (max-width: 767px) {
+  .client-logo-slider img {
+    width: 100px;
+  }
+}
+.client-logo-slider a {
+  padding: 1em 0em !important;
 }
 .client-logo-slider a:hover img {
   transform: scale(1.2);

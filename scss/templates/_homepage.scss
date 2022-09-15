@@ -419,9 +419,13 @@
 .client-logo-slider {
   img {
     transition: .2s ease;
+    @include tablet {
+      width: 100px;
+    }
   }
 
   a {
+    padding: 1em 0em !important;
     &:hover {
       img {
         transform: scale(1.2);

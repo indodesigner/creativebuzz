@@ -79,7 +79,12 @@ a:hover {
 
     @include  desktop-lg{
       padding-top: 200px;
-      padding-bottom: 400px;
+      padding-bottom: 50px;
+    }
+
+    @include tablet {
+      padding-top: 200px;
+      padding-bottom: 50px;
     }
 
     @include mobile {
