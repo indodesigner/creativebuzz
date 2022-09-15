@@ -259,8 +259,15 @@
 
 .video-card{
   max-width: 100%;
+
+  @include tablet {
+    height: 500px;
+  }
 }
 
 .services-video{
   filter: brightness(50%);
+  @include tablet {
+   height: inherit;
+  }
 }

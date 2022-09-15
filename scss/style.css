@@ -3534,7 +3534,17 @@ textarea.form-control {
 .video-card {
   max-width: 100%;
 }
+@media (max-width: 767px) {
+  .video-card {
+    height: 500px;
+  }
+}
 
 .services-video {
   filter: brightness(50%);
+}
+@media (max-width: 767px) {
+  .services-video {
+    height: inherit;
+  }
 }/*# sourceMappingURL=style.css.map */
