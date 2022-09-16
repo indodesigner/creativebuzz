@@ -346,9 +346,32 @@ h6, .h6 {
   color: black;
 }
 
+.read_blogs a {
+  color: #CE0965 !important;
+}
+
+.read_blogs blockquote {
+  color: #CE0965 !important;
+}
+
 .blog-btn:hover {
   font-size: 3em;
   color: #CE0965;
+}
+
+.read_blog_social a {
+  color: #CE0965;
+  font-size: 1.5em;
+}
+
+.read_blog_btn a {
+  color: black !important;
+  font-size: 1.5em;
+}
+
+.read_blog_btn a:hover {
+  color: #CE0965;
+  font-size: 1.3em;
 }
 
 /**
@@ -554,6 +577,15 @@ a:hover {
 .section-sm {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.section-md {
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+@media (max-width: 575px) {
+  .section-md {
+    padding-top: 100px;
+  }
 }
 .section-hero {
   padding-top: 300px;

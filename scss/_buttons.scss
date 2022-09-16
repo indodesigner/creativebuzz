@@ -274,9 +274,27 @@
 font-size: 2.5em;
 color: black;
 }
-
+.read_blogs a{
+  color: $cb-pink-1 !important;
+}
+.read_blogs blockquote{
+  color: $cb-pink-1 !important;
+}
 .blog-btn:hover{
   font-size: 3em;
   color: $cb-pink-1;
   }
-  
+  .read_blog_social a{
+    color:$cb-pink-1;
+    font-size: 1.5em;
+  }
+
+  .read_blog_btn a{
+    color: black !important;
+    font-size: 1.5em;
+  }
+
+  .read_blog_btn a:hover{
+    color: $cb-pink-1;
+    font-size: 1.3em;
+  }
