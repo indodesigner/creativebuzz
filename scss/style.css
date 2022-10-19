@@ -1167,6 +1167,20 @@ img {
   }
 }
 
+.blog_list li {
+  font-size: 20px;
+  list-style: disc;
+}
+
+.blog_1_img {
+  width: 100%;
+}
+.blog_1_img img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .slide__right {
   -webkit-animation: slideInLeft;
           animation: slideInLeft;

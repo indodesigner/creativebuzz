@@ -671,3 +671,16 @@ img {
     display: none;
   }
 }
+
+.blog_list li {
+ font-size: 20px;
+list-style: disc;
+}
+
+.blog_1_img{
+  width: 100%;
+  img{
+  height: 400px;
+  object-fit: cover;
+  }
+}
