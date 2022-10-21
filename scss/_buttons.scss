@@ -54,7 +54,7 @@
       border-radius: 10px;
 
   color: $white;
-  transition: transform .2s;
+  // transition: transform .2s;
 
   &:active {
     background: $primary-gradient !important;
@@ -65,7 +65,7 @@
     border: solid;
     border-color: black;
     color: $text-color-dark;
-    transform: scale(1.05);
+    // transform: scale(1.05);
   }
 }
 

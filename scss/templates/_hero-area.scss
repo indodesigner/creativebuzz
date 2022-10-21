@@ -339,3 +339,22 @@ svg {
 
 
 // .......................................................
+
+.social-trans-y{
+  position: absolute;
+  left: -11vw;
+  top: 50%;
+  transform: translateY(-50%) rotate(270deg);
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif !important;
+
+  font-weight: 200 !important;
+
+  @include desktop {
+    display: none;
+  }
+
+}
