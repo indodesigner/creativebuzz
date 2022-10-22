@@ -3164,7 +3164,10 @@ transform:scale(1.8)
 }
 @media(min-width:1200px) and (max-width:1399px) {
 .banner-section3 .banner-social3 {
-	right: -8%
+	/* right: -8%; */
+	right: 90% !important;
+	overflow-x: unset;
+	top: 56%;
 }
 }
 @media(min-width:992px) and (max-width:1199px) {
