@@ -898,9 +898,23 @@ transition: all, 1s;
 }
 
 .services-text{
-  overflow: hidden;
-  text-overflow: ellipsis !important; 
-  height: 100px;
+  // overflow: hidden;
+  // text-overflow: ellipsis !important; 
+  // height: 100px;
+  p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    
+  }
+
+  @include min-max-990-1400 {
+      min-height: 150px !important;
+  }
+  
 }
 
 .view-all-services{
@@ -910,3 +924,6 @@ transition: all, 1s;
 .services-card{
   margin-bottom: 3em;
 }
+
+
+

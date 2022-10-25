@@ -4600,7 +4600,7 @@ transform:rotate(360deg);
 	padding: 30px 25px
 }
 .service-item4:hover .service-img img {
-	transform: scale(1.1)
+	transform: scale(1.05)
 }
 .service-item4 .service-img img {
 	transform: scale(1);

@@ -3124,10 +3124,18 @@ svg polygon {
   transform: rotate(5deg);
 }
 
-.services-text {
+.services-text p {
+  text-overflow: ellipsis;
   overflow: hidden;
-  text-overflow: ellipsis !important;
-  height: 100px;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+@media screen and (max-width: 1400px) and (min-width: 990px) {
+  .services-text {
+    min-height: 150px !important;
+  }
 }
 
 .view-all-services {
